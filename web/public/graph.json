@@ -1,0 +1,685 @@
+{
+  "stage": "MVP",
+  "vertices": [
+    {
+      "id": "R01",
+      "stage": "MVP",
+      "name": "Биржа проектов",
+      "type": "ресурс",
+      "kind": "цифровой; организационный",
+      "conditions": "Обучающиеся могут выбрать проект, присоединиться к команде или разместить проект; оплата только за выполненные коммерческие проекты.",
+      "source": "https://www.fa.ru/university/finproject/"
+    },
+    {
+      "id": "R03",
+      "stage": "MVP",
+      "name": "Центр карьеры",
+      "type": "ресурс",
+      "kind": "организационный; социальный",
+      "conditions": "Консультации, вакансии, стажировки; трудоустройство зависит от отбора работодателя.",
+      "source": "https://www.fa.ru/university/structure/education/dir-career/utrk/"
+    },
+    {
+      "id": "R04",
+      "stage": "MVP",
+      "name": "Стартап-студия",
+      "type": "ресурс",
+      "kind": "организационный; экспертный",
+      "conditions": "Экспертиза идеи, командообразование, грантовые и ВКР-консультации; условия включения в программу уточняются.",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/startup/"
+    },
+    {
+      "id": "R05",
+      "stage": "MVP",
+      "name": "Бизнес-инкубатор",
+      "type": "ресурс",
+      "kind": "организационный",
+      "conditions": "Поддержка стартапов; резидентство требует отбора/решения, публичные критерии на странице представлены изображениями.",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/"
+    },
+    {
+      "id": "R08",
+      "stage": "MVP",
+      "name": "Менторы, отраслевые эксперты и трекеры",
+      "type": "ресурс",
+      "kind": "социальный; экспертный",
+      "conditions": "Доступ через программы сопровождения; закрепление конкретного эксперта не гарантировано.",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/"
+    },
+    {
+      "id": "R10",
+      "stage": "MVP",
+      "name": "Облачные сервисы, хостинг, льготные подписки на ПО",
+      "type": "ресурс",
+      "kind": "цифровой; технический",
+      "conditions": "Перечислены как меры поддержки; квоты, лимиты, лицензии и коммерческое использование отдельно не опубликованы.",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/"
+    },
+    {
+      "id": "R12",
+      "stage": "MVP",
+      "name": "Юридические, налоговые, бухгалтерские консультации и шаблоны",
+      "type": "ресурс",
+      "kind": "правовой; организационный",
+      "conditions": "Консультационная помощь не заменяет регистрацию субъекта или соглашение с правообладателем.",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/"
+    },
+    {
+      "id": "R13",
+      "stage": "MVP",
+      "name": "Помощь с грантовыми заявками и инвестиционной упаковкой",
+      "type": "ресурс",
+      "kind": "организационный; информационный",
+      "conditions": "Подготовка заявки/pitch deck не гарантирует финансирования.",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/"
+    },
+    {
+      "id": "R17",
+      "stage": "MVP",
+      "name": "Электронные коллекции и базы БИК",
+      "type": "ресурс",
+      "kind": "информационный; цифровой",
+      "conditions": "Удалённый доступ есть не у всех баз; правила и лицензии у каждой коллекции отдельные, коммерческое переиспользование не подтверждено.",
+      "source": "https://library.fa.ru/access.asp"
+    },
+    {
+      "id": "R20",
+      "stage": "MVP",
+      "name": "Конкурсы внешних грантодателей, включая «Студенческий стартап»",
+      "type": "внешний ресурс",
+      "kind": "финансовый; организационный",
+      "conditions": "Не ресурс в собственности вуза. Участие только по актуальному положению и срокам конкурса; объявленный на fa.ru этап 2026 закрыт.",
+      "source": "https://www.fa.ru/university/structure/scientific-educational-departments/eib/news/granty-stipendii-konkursy-konferentsii-dlya-studentov-molodykh-uchenykh-i-prepodavateley"
+    },
+    {
+      "id": "R21",
+      "stage": "MVP",
+      "name": "Организации-партнёры, заказчики и инвесторы",
+      "type": "внешний ресурс",
+      "kind": "социальный; финансовый; рыночный",
+      "conditions": "Контакт возможен через Биржу/инкубатор/карьерный центр; соглашение и финансирование зависят от партнёра.",
+      "source": "https://www.fa.ru/university/finproject/"
+    },
+    {
+      "id": "S01",
+      "stage": "MVP",
+      "name": "Статус обучающегося Финансового университета",
+      "type": "исходное условие",
+      "kind": "субъект",
+      "conditions": "Исходный факт или внешнее условие; не обеспечивается автоматически университетом.",
+      "source": ""
+    },
+    {
+      "id": "S02",
+      "stage": "MVP",
+      "name": "Личные знания и компетенции студента",
+      "type": "исходное условие",
+      "kind": "человеческий капитал",
+      "conditions": "Исходный факт или внешнее условие; не обеспечивается автоматически университетом.",
+      "source": ""
+    },
+    {
+      "id": "S03",
+      "stage": "MVP",
+      "name": "Собственная идея / исследовательский замысел",
+      "type": "исходное условие",
+      "kind": "идея",
+      "conditions": "Исходный факт или внешнее условие; не обеспечивается автоматически университетом.",
+      "source": ""
+    },
+    {
+      "id": "S04",
+      "stage": "MVP",
+      "name": "Предложенная внешним заказчиком задача",
+      "type": "исходное условие",
+      "kind": "рыночный запрос",
+      "conditions": "Исходный факт или внешнее условие; не обеспечивается автоматически университетом.",
+      "source": ""
+    },
+    {
+      "id": "S06",
+      "stage": "MVP",
+      "name": "Готовность клиента заключить сделку",
+      "type": "внешнее условие",
+      "kind": "рыночное решение",
+      "conditions": "Исходный факт или внешнее условие; не обеспечивается автоматически университетом.",
+      "source": ""
+    },
+    {
+      "id": "D01",
+      "stage": "MVP",
+      "name": "Проектная команда",
+      "type": "промежуточный результат",
+      "kind": "организационный",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D02",
+      "stage": "MVP",
+      "name": "Описанная концепция проекта",
+      "type": "промежуточный результат",
+      "kind": "информационный",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D03",
+      "stage": "MVP",
+      "name": "Проверенные гипотезы и оценка спроса",
+      "type": "промежуточный результат",
+      "kind": "подтверждение предпосылок",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D04",
+      "stage": "MVP",
+      "name": "Бизнес-план/бизнес-модель",
+      "type": "промежуточный результат",
+      "kind": "информационный",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D05",
+      "stage": "MVP",
+      "name": "MVP или прототип",
+      "type": "промежуточный результат",
+      "kind": "интеллектуальный/технологический",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D06",
+      "stage": "MVP",
+      "name": "Презентация / pitch deck",
+      "type": "промежуточный результат",
+      "kind": "информационный",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D09",
+      "stage": "MVP",
+      "name": "Правовой анализ результата и формы деятельности",
+      "type": "промежуточный результат",
+      "kind": "правовой",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D13",
+      "stage": "MVP",
+      "name": "Поданная грантовая заявка",
+      "type": "промежуточный результат",
+      "kind": "заявочный",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D14",
+      "stage": "MVP",
+      "name": "Получено грантовое финансирование",
+      "type": "финансовый результат",
+      "kind": "не прибыль",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D18",
+      "stage": "MVP",
+      "name": "Зарегистрирован ИП",
+      "type": "организационно-правовой результат",
+      "kind": "предприниматель",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D20",
+      "stage": "MVP",
+      "name": "Первая коммерческая продажа продукта",
+      "type": "экономический результат",
+      "kind": "первые продажи",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D25",
+      "stage": "MVP",
+      "name": "Договор на разовую НИР / коммерческую работу",
+      "type": "промежуточный результат",
+      "kind": "договорный",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D26",
+      "stage": "MVP",
+      "name": "Работа выполнена и результат принят заказчиком",
+      "type": "промежуточный результат",
+      "kind": "переданный результат",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D27",
+      "stage": "MVP",
+      "name": "Разовое коммерческое вознаграждение",
+      "type": "экономический результат",
+      "kind": "не регулярная прибыль",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D28",
+      "stage": "MVP",
+      "name": "Отчёт о пилотном внедрении / апробации",
+      "type": "промежуточный результат",
+      "kind": "эмпирическая проверка",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D29",
+      "stage": "MVP",
+      "name": "Подтверждённый кейс в портфолио",
+      "type": "промежуточный результат",
+      "kind": "репутационный",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D30",
+      "stage": "MVP",
+      "name": "Стажировка",
+      "type": "профессиональный результат",
+      "kind": "оплачиваемость не установлена",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D31",
+      "stage": "MVP",
+      "name": "Трудоустройство",
+      "type": "профессиональный результат",
+      "kind": "наёмный труд",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D32",
+      "stage": "MVP",
+      "name": "Заработная плата",
+      "type": "экономический результат",
+      "kind": "не предпринимательская прибыль",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D40",
+      "stage": "MVP",
+      "name": "Договор на независимые консультационные услуги",
+      "type": "промежуточный результат",
+      "kind": "услуга личного труда",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D41",
+      "stage": "MVP",
+      "name": "Оказанная консультация и вознаграждение",
+      "type": "экономический результат",
+      "kind": "не обязательно отчуждаемый актив",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D43",
+      "stage": "MVP",
+      "name": "Инвестиционный проект / финансовая модель",
+      "type": "промежуточный результат",
+      "kind": "информационный",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    },
+    {
+      "id": "D44",
+      "stage": "MVP",
+      "name": "Положительное решение грантодателя/инвестора",
+      "type": "внешняя оценка",
+      "kind": "не подтверждение рынка",
+      "conditions": "Возникает только после выполнения соответствующего процесса и проверки его условий.",
+      "source": ""
+    }
+  ],
+  "processes": [
+    {
+      "id": "H02",
+      "stage": "MVP",
+      "name": "Размещение/поиск проекта на Бирже",
+      "guard": "Публикация или выбор проекта в доступном функционале Биржи.",
+      "confirmationStatus": "сервис подтверждён",
+      "source": "https://www.fa.ru/university/finproject/",
+      "inputs": [
+        "S01",
+        "S03",
+        "R01"
+      ],
+      "outputs": [
+        "D02"
+      ]
+    },
+    {
+      "id": "H03",
+      "stage": "MVP",
+      "name": "Подбор команды",
+      "guard": "Другие участники добровольно вступили в команду; помощь студии по запросу.",
+      "confirmationStatus": "сервис подтверждён",
+      "source": "https://www.fa.ru/university/finproject/; https://www.fa.ru/university/structure/university/business-incubator/startup/",
+      "inputs": [
+        "D02",
+        "R01",
+        "R04"
+      ],
+      "outputs": [
+        "D01"
+      ]
+    },
+    {
+      "id": "H04",
+      "stage": "MVP",
+      "name": "Экспертная проработка концепции",
+      "guard": "Консультации предоставлены, проект оформлен.",
+      "confirmationStatus": "сервис подтверждён",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/startup/; https://www.fa.ru/university/structure/university/business-incubator/transfer/",
+      "inputs": [
+        "S03",
+        "S02",
+        "R04",
+        "R08"
+      ],
+      "outputs": [
+        "D02"
+      ]
+    },
+    {
+      "id": "H05",
+      "stage": "MVP",
+      "name": "Проверка рыночных гипотез",
+      "guard": "Собраны проверяемые данные; доступ к конкретной базе согласован.",
+      "confirmationStatus": "процесс на основе сервиса",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/startup/club/; https://www.fa.ru/university/structure/university/business-incubator/transfer/; https://library.fa.ru/access.asp",
+      "inputs": [
+        "D02",
+        "R08",
+        "R17"
+      ],
+      "outputs": [
+        "D03"
+      ]
+    },
+    {
+      "id": "H06",
+      "stage": "MVP",
+      "name": "Подготовка бизнес-плана",
+      "guard": "План подготовлен; финансовые допущения указаны.",
+      "confirmationStatus": "сервис подтверждён",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/startup/; https://www.fa.ru/university/structure/university/business-incubator/transfer/",
+      "inputs": [
+        "D02",
+        "D03",
+        "R04",
+        "R13"
+      ],
+      "outputs": [
+        "D04"
+      ]
+    },
+    {
+      "id": "H07",
+      "stage": "MVP",
+      "name": "Разработка цифрового MVP",
+      "guard": "Квота облака/лицензия на ПО выделена; коммерческое использование разрешено лицензией.",
+      "confirmationStatus": "ресурс подтверждён; доступ уточнить",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/",
+      "inputs": [
+        "D01",
+        "D04",
+        "R10"
+      ],
+      "outputs": [
+        "D05"
+      ]
+    },
+    {
+      "id": "H11",
+      "stage": "MVP",
+      "name": "Подготовка инвестпакета",
+      "guard": "Содержание финансовой модели и pitch deck соответствует аудитории.",
+      "confirmationStatus": "сервис подтверждён",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/",
+      "inputs": [
+        "D04",
+        "D05",
+        "R13"
+      ],
+      "outputs": [
+        "D06",
+        "D43"
+      ]
+    },
+    {
+      "id": "H12",
+      "stage": "MVP",
+      "name": "Подача заявки на грант",
+      "guard": "Актуальный конкурс открыт и заявитель соответствует его положению.",
+      "confirmationStatus": "зависит от конкурса",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/startup/; https://www.fa.ru/university/structure/scientific-educational-departments/eib/news/granty-stipendii-konkursy-konferentsii-dlya-studentov-molodykh-uchenykh-i-prepodavateley",
+      "inputs": [
+        "D06",
+        "R13",
+        "R20"
+      ],
+      "outputs": [
+        "D13"
+      ]
+    },
+    {
+      "id": "H13",
+      "stage": "MVP",
+      "name": "Получение гранта",
+      "guard": "Конкурсная комиссия приняла положительное решение, подписаны необходимые документы.",
+      "confirmationStatus": "внешнее решение",
+      "source": "https://www.fa.ru/university/structure/scientific-educational-departments/eib/news/granty-stipendii-konkursy-konferentsii-dlya-studentov-molodykh-uchenykh-i-prepodavateley",
+      "inputs": [
+        "D13",
+        "R20"
+      ],
+      "outputs": [
+        "D14",
+        "D44"
+      ]
+    },
+    {
+      "id": "H16",
+      "stage": "MVP",
+      "name": "Правовая и налоговая консультация",
+      "guard": "Выбран и проверен допустимый режим деятельности, ограничения и права.",
+      "confirmationStatus": "сервис подтверждён",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/",
+      "inputs": [
+        "S02",
+        "R12"
+      ],
+      "outputs": [
+        "D09"
+      ]
+    },
+    {
+      "id": "H18",
+      "stage": "MVP",
+      "name": "Регистрация ИП",
+      "guard": "Выполнены нормы регистрации ИП; регистрация проводится вне fa.ru.",
+      "confirmationStatus": "внешняя регистрация",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/",
+      "inputs": [
+        "D09",
+        "S02"
+      ],
+      "outputs": [
+        "D18"
+      ]
+    },
+    {
+      "id": "H21",
+      "stage": "MVP",
+      "name": "Первая продажа через ИП/ООО",
+      "guard": "ИП вправе распоряжаться продуктом; получена оплата и оформлены документы.",
+      "confirmationStatus": "внешняя сделка",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/",
+      "inputs": [
+        "D05",
+        "D18",
+        "S06"
+      ],
+      "outputs": [
+        "D20",
+        "D27"
+      ]
+    },
+    {
+      "id": "H36",
+      "stage": "MVP",
+      "name": "Пилотирование у партнёра",
+      "guard": "Партнёр согласовал пилот и критерии оценки; завершена апробация.",
+      "confirmationStatus": "сервис подтверждён; решение партнёра",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/; https://www.fa.ru/university/press-center/biznes-inkubator-finansovogo-universiteta-podvel-itogi-konkursa-biznes-proryv",
+      "inputs": [
+        "D05",
+        "R05",
+        "R21"
+      ],
+      "outputs": [
+        "D28"
+      ]
+    },
+    {
+      "id": "H38",
+      "stage": "MVP",
+      "name": "Подбор коммерческой задачи",
+      "guard": "Договорённость о содержании, сроке, оплате и правах результата; публикация задачи не равна договору.",
+      "confirmationStatus": "зависит от заказчика",
+      "source": "https://www.fa.ru/university/finproject/",
+      "inputs": [
+        "S01",
+        "S04",
+        "R01"
+      ],
+      "outputs": [
+        "D25"
+      ]
+    },
+    {
+      "id": "H39",
+      "stage": "MVP",
+      "name": "Выполнение разового коммерческого контракта",
+      "guard": "Работа принята и оплачена заказчиком; правовой режим исполнителя согласован.",
+      "confirmationStatus": "внешняя сделка",
+      "source": "https://www.fa.ru/university/finproject/",
+      "inputs": [
+        "D25",
+        "S02",
+        "S06"
+      ],
+      "outputs": [
+        "D26",
+        "D27",
+        "D29"
+      ]
+    },
+    {
+      "id": "H42",
+      "stage": "MVP",
+      "name": "Заключение консультационного контракта",
+      "guard": "Заказчик согласен, выбран законный формат оказания услуг и условия оплаты.",
+      "confirmationStatus": "внешняя сделка",
+      "source": "https://www.fa.ru/university/finproject/",
+      "inputs": [
+        "S02",
+        "S04",
+        "R01"
+      ],
+      "outputs": [
+        "D40"
+      ]
+    },
+    {
+      "id": "H43",
+      "stage": "MVP",
+      "name": "Оказание консультационной услуги",
+      "guard": "Услуга оказана и оплачена; отчуждаемый РИД не обязателен.",
+      "confirmationStatus": "внешняя сделка",
+      "source": "https://www.fa.ru/university/finproject/",
+      "inputs": [
+        "D40",
+        "S02",
+        "S06"
+      ],
+      "outputs": [
+        "D41",
+        "D29"
+      ]
+    },
+    {
+      "id": "H46",
+      "stage": "MVP",
+      "name": "Трудоустройство",
+      "guard": "Пройден отбор, заключён трудовой договор; зарплата выплачена.",
+      "confirmationStatus": "внешнее решение",
+      "source": "https://www.fa.ru/university/structure/education/dir-career/utrk/",
+      "inputs": [
+        "D30",
+        "R03"
+      ],
+      "outputs": [
+        "D31",
+        "D32"
+      ]
+    },
+    {
+      "id": "H56",
+      "stage": "MVP",
+      "name": "Первая продажа после пилота",
+      "guard": "Пилот сам по себе не создаёт продажу; заключена и оплачена отдельная сделка, права на продукт проверены.",
+      "confirmationStatus": "внешняя сделка",
+      "source": "https://www.fa.ru/university/structure/university/business-incubator/transfer/; https://www.fa.ru/university/press-center/biznes-inkubator-finansovogo-universiteta-podvel-itogi-konkursa-biznes-proryv",
+      "inputs": [
+        "D28",
+        "D05",
+        "D18",
+        "S06",
+        "R21"
+      ],
+      "outputs": [
+        "D20",
+        "D27"
+      ]
+    },
+    {
+      "id": "H58",
+      "stage": "MVP",
+      "name": "Получение стажировки с опорой на портфолио",
+      "guard": "Работодатель рассмотрел портфолио и одобрил кандидата.",
+      "confirmationStatus": "внешнее решение",
+      "source": "https://www.fa.ru/university/finproject/; https://www.fa.ru/university/structure/education/dir-career/utrk/",
+      "inputs": [
+        "D29",
+        "R03"
+      ],
+      "outputs": [
+        "D30"
+      ]
+    }
+  ]
+}

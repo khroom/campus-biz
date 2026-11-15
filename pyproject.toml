@@ -1,0 +1,9 @@
+[project]
+name = "navigator"
+version = "0.1.0"
+description = "Загрузка модели «Навигатор студента в деловой среде университета»"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
